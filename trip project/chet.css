@@ -1,0 +1,821 @@
+.contener-card {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(230, 241, 251);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr, 2fr);
+  justify-content: center;
+}
+.item-card {
+  width: 1200px;
+  height: 550px;
+  margin-top: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  align-items: center;
+  background-color: #fffcfc;
+}
+.item-card-one {
+  width: 260px;
+  height: 360px;
+  margin-top: 150px;
+  background-color: #f2f3f4;
+  border-radius: 20px;
+  transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+.item-card-six {
+  width: 260px;
+  height: 360px;
+  margin-top: 150px;
+  background-color: #f2f3f4;
+  border-radius: 20px;
+  transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+/* .item-card-one:hover {
+  transform: scale(1.05);
+} */
+.imge {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.txt {
+  display: inline-block;
+  margin: 0px 15px;
+  font-family: "Poppins", sans-serif;
+  word-spacing: -2px;
+}
+.price {
+  justify-content: flex-end;
+}
+.star > i {
+  color: rgb(239, 147, 19);
+}
+.text-one {
+  position: relative;
+  top: 130px;
+  margin-left: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.hii {
+  display: flex;
+  margin-top: 15px;
+  color: rgb(41, 38, 38);
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 15px;
+  gap: 1rem;
+}
+.hi {
+  border-bottom: 1px dashed rgb(35, 35, 35);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hiii {
+  width: 25px;
+  height: 30px;
+  margin-right: 5px;
+}
+h3 {
+  font-size: 30px;
+}
+.nav-four {
+  position: relative;
+  top: 150px;
+  margin-left: 20px;
+}
+.tag {
+  background-color: rgb(215, 218, 221);
+  width: 150px;
+  height: 100px;
+  font-size: 15px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 2px;
+}
+.tag > a {
+  color: rgb(39, 41, 68);
+}
+.tag > a:hover {
+  color: rgb(19, 33, 236);
+}
+.plan {
+  border-radius: 16px;
+  box-shadow: 0 30px 30px -25px rgba(0, 38, 255, 0.205);
+  padding: 10px;
+  background-color: #fff;
+  color: #697e91;
+  max-width: 300px;
+}
+
+.plan strong {
+  font-weight: 600;
+  color: #425275;
+}
+
+.plan .inner {
+  align-items: center;
+  padding: 20px;
+  padding-top: 40px;
+  background-color: #ecf0ff;
+  border-radius: 12px;
+  position: relative;
+  display: inline-block;
+}
+.luy {
+  color: #083cf9;
+}
+.plan .pricing {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #bed6fb;
+  border-radius: 99em 0 0 99em;
+  display: flex;
+  align-items: center;
+  padding: 0.625em 0.75em;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #425475;
+}
+.plan .pricing small {
+  color: #707a91;
+  font-size: 0.75em;
+  margin-left: 0.25em;
+}
+
+.plan .title {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #425675;
+}
+
+.plan .title + * {
+  margin-top: 0.75rem;
+}
+
+.plan .info + * {
+  margin-top: 1rem;
+}
+
+.plan .features {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+}
+
+.plan .features li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.plan .features li + * {
+  margin-top: 0.75rem;
+}
+
+.plan .features .icon {
+  background-color: #1fcac5;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.plan .features .icon svg {
+  width: 14px;
+  height: 14px;
+}
+
+.plan .features + * {
+  margin-top: 1.25rem;
+}
+
+.plan .action {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.plan .button {
+  background-color: #6558d3;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.125rem;
+  text-align: center;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  padding: 0.625em 0.75em;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+.plan .button:hover,
+.plan .button:focus {
+  background-color: #4133b7;
+}
+.one {
+  margin-right: 10px;
+}
+.like {
+  width: 260px;
+  height: 360px;
+  border-radius: 5px;
+  margin-top: 145px;
+  overflow: hidden;
+  background-image: linear-gradient(
+      rgb(0, 26, 255),
+      rgba(15, 7, 255, 0.8),
+      rgb(10, 6, 240)
+    ),
+    url(./img/rough-horn-2146181.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card {
+  display: flex;
+  height: 360px;
+  width: 270px;
+}
+.card-img {
+  width: 100%;
+  object-fit: cover;
+}
+.card svg {
+  position: absolute;
+  display: flex;
+  width: 60%;
+  height: 100%;
+  font-size: 24px;
+  font-weight: 700;
+  opacity: 1;
+  transition: opacity 0.25s;
+  z-index: 2;
+  cursor: pointer;
+}
+.card-three {
+  max-width: 320px;
+  border-radius: 1rem;
+  background-color: transparent;
+  padding: 1rem;
+}
+
+.infos {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  grid-gap: 1rem;
+  gap: 1rem;
+}
+
+.image {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 0.5rem;
+  background-image: url(./img/photo_2024-05-29_19-09-37.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.info {
+  height: 7rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.name {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+}
+
+.function {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: rgba(156, 163, 175, 1);
+}
+
+.stats {
+  width: 100%;
+  border-radius: 0.5rem;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: rgba(0, 0, 0, 1);
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 4px;
+}
+
+.state-value {
+  font-weight: 700;
+  color: rgb(112, 62, 162);
+}
+
+.request {
+  margin-top: 1.5rem;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.request:hover {
+  background-color: rgb(118, 36, 194);
+  color: #fff;
+}
+
+.card .social-link1,
+.card .social-link2,
+.card .social-link3,
+.card .social-link4 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  color: whitesmoke;
+  font-size: 24px;
+  text-decoration: none;
+  transition: 0.25s;
+  border-radius: 50px;
+}
+
+.card svg {
+  transform: scale(1);
+}
+
+.card .social-link1:hover {
+  background: #958f88;
+  /* background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  ); */
+  /* background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  ); */
+  /* background: linear-gradient(
+    45deg,
+    #493f33 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  ); */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  animation: bounce_613 0.4s linear;
+}
+
+.card .social-link2:hover {
+  background-color: #00ccff;
+  animation: bounce_613 0.4s linear;
+}
+
+.card .social-link3:hover {
+  background-color: #5865f2;
+  animation: bounce_613 0.4s linear;
+}
+
+.card .social-link4:hover {
+  background-color: #12a50b;
+  animation: bounce_613 0.4s linear;
+}
+
+.like-dislike-container {
+  --dark-grey: #353535;
+  --middle-grey: #767676;
+  --lightest-grey: linear-gradient(#fafafa, #ebebeb);
+  --shadow: 0 5px 15px 0 #00000026;
+  --shadow-active: 0 5px 5px 0 #00000026;
+  --border-radius-main: 10px;
+  --border-radius-icon: 50px;
+  position: relative;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  cursor: default;
+  color: var(--dark-grey);
+  opacity: 0.9;
+  margin: auto;
+  padding: 1.5rem;
+  font-weight: 600;
+  /* background: var(--lightest-grey);   */
+  max-width: max-content;
+  border-radius: var(--border-radius-main);
+  box-shadow: var(--shadow);
+  transition: 0.2s ease all;
+}
+
+.like-dislike-container:hover {
+  box-shadow: var(--shadow-active);
+}
+
+.like-dislike-container .tool-box {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  top: 0;
+  right: 0;
+  border-radius: var(--border-radius-main);
+}
+
+.like-dislike-container .btn-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 0.8rem;
+  height: 0.8rem;
+  color: transparent;
+  font-size: 0;
+  cursor: pointer;
+  background-color: #ff000080;
+  border: none;
+  border-radius: var(--border-radius-main);
+  transition: 0.2s ease all;
+}
+
+.like-dislike-container .btn-close:hover {
+  width: 1rem;
+  height: 1rem;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #ff0000cc;
+  box-shadow: var(--shadow-active);
+}
+
+.like-dislike-container .btn-close:active {
+  width: 0.9rem;
+  height: 0.9rem;
+  font-size: 0.9rem;
+  color: #ffffffde;
+  --shadow-btn-close: 0 3px 3px 0 #00000026;
+  box-shadow: var(--shadow-btn-close);
+}
+
+.like-dislike-container .text-content {
+  margin-bottom: 1rem;
+  font-size: 18px;
+  line-height: 1.6;
+  cursor: default;
+  color: white;
+}
+
+.like-dislike-container .icons-box {
+  display: flex;
+}
+
+.like-dislike-container .icons {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.6;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid var(--middle-grey);
+  border-radius: var(--border-radius-icon);
+  transition: 0.2s ease all;
+}
+
+.like-dislike-container .icons:hover {
+  opacity: 0.9;
+  box-shadow: var(--shadow);
+}
+
+.like-dislike-container .icons:active {
+  opacity: 0.9;
+  box-shadow: var(--shadow-active);
+}
+
+.like-dislike-container .icons .btn-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0.5rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.like-dislike-container .like-text-content {
+  border-right: 0.1rem solid var(--dark-grey);
+  padding: 0 0.6rem 0 0.5rem;
+  pointer-events: none;
+  color: white;
+}
+
+.like-dislike-container .dislike-text-content {
+  border-left: 0.1rem solid var(--dark-grey);
+  padding: 0 0.5rem 0 0.6rem;
+  pointer-events: none;
+  color: white;
+}
+
+.like-dislike-container .icons .svgs {
+  width: 1.3rem;
+  fill: #000000;
+  box-sizing: content-box;
+  padding: 10px 10px;
+  transition: 0.2s ease all;
+}
+
+/* Hide the default checkbox */
+.like-dislike-container .icons .input-box {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.like-dislike-container .icons #icon-like-regular {
+  display: block;
+}
+
+.like-dislike-container .icons #icon-like-solid {
+  display: none;
+}
+
+.like-dislike-container .icons:hover :is(#icon-like-solid, #icon-like-regular) {
+  animation: rotate-icon-like 0.7s ease-in-out both;
+}
+
+.like-dislike-container .icons #like-checkbox:checked ~ #icon-like-regular {
+  display: none;
+  animation: checked-icon-like 0.5s;
+}
+
+.like-dislike-container .icons #like-checkbox:checked ~ #icon-like-solid {
+  display: block;
+  animation: checked-icon-like 0.5s;
+}
+
+.like-dislike-container .icons #icon-dislike-regular {
+  display: block;
+  transform: rotate(180deg);
+}
+
+.like-dislike-container .icons #icon-dislike-solid {
+  display: none;
+  transform: rotate(180deg);
+}
+
+.like-dislike-container
+  .icons:hover
+  :is(#icon-dislike-solid, #icon-dislike-regular) {
+  animation: rotate-icon-dislike 0.7s ease-in-out both;
+}
+
+.like-dislike-container
+  .icons
+  #dislike-checkbox:checked
+  ~ #icon-dislike-regular {
+  display: none;
+  animation: checked-icon-dislike 0.5s;
+}
+
+.like-dislike-container .icons #dislike-checkbox:checked ~ #icon-dislike-solid {
+  display: block;
+  animation: checked-icon-dislike 0.5s;
+}
+
+.like-dislike-container .icons .fireworks {
+  transform: scale(0.4);
+}
+
+.like-dislike-container
+  .icons
+  #like-checkbox:checked
+  ~ .fireworks
+  > .checked-like-fx {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  right: 40px;
+  border-radius: 50%;
+  box-shadow: 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
+    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
+    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
+    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
+    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
+    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
+    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
+    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
+    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff;
+  animation: 1s fireworks-bang ease-out forwards,
+    1s fireworks-gravity ease-in forwards, 5s fireworks-position linear forwards;
+  animation-duration: 1.25s, 1.25s, 6.25s;
+  background-color: transparent;
+}
+
+.like-dislike-container
+  .icons
+  #dislike-checkbox:checked
+  ~ .fireworks
+  > .checked-dislike-fx {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 40px;
+  border-radius: 50%;
+  box-shadow: 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
+    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
+    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
+    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
+    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
+    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
+    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
+    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
+    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff;
+  animation: 1s fireworks-bang ease-out forwards,
+    1s fireworks-gravity ease-in forwards, 5s fireworks-position linear forwards;
+  animation-duration: 1.25s, 1.25s, 6.25s;
+  background-color: transparent;
+}
+
+/* Shake Animation */
+@keyframes rotate-icon-like {
+  0% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+
+  25% {
+    transform: rotate(3deg) translate3d(0, 0, 0);
+  }
+
+  50% {
+    transform: rotate(-3deg) translate3d(0, 0, 0);
+  }
+
+  75% {
+    transform: rotate(1deg) translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+}
+
+@keyframes rotate-icon-dislike {
+  0% {
+    transform: rotate(180deg) translate3d(0, 0, 0);
+  }
+
+  25% {
+    transform: rotate(183deg) translate3d(0, 0, 0);
+  }
+
+  50% {
+    transform: rotate(177deg) translate3d(0, 0, 0);
+  }
+
+  75% {
+    transform: rotate(181deg) translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: rotate(180deg) translate3d(0, 0, 0);
+  }
+}
+
+/* Checked Animation */
+@keyframes checked-icon-like {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  50% {
+    transform: scale(1.2) rotate(-10deg);
+  }
+}
+
+@keyframes checked-icon-dislike {
+  0% {
+    transform: scale(0) rotate(180deg);
+    opacity: 0;
+  }
+
+  50% {
+    transform: scale(1.2) rotate(170deg);
+  }
+}
+
+/* Fireworks Animation */
+@keyframes fireworks-position {
+  0%,
+  19.9% {
+    margin-top: 10%;
+    margin-left: 40%;
+  }
+
+  20%,
+  39.9% {
+    margin-top: 40%;
+    margin-left: 30%;
+  }
+
+  40%,
+  59.9% {
+    margin-top: 20%;
+    margin-left: 70%;
+  }
+
+  60%,
+  79.9% {
+    margin-top: 30%;
+    margin-left: 20%;
+  }
+
+  80%,
+  99.9% {
+    margin-top: 30%;
+    margin-left: 80%;
+  }
+}
+
+@keyframes fireworks-gravity {
+  to {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+}
+
+@keyframes fireworks-bang {
+  to {
+    box-shadow: 114px -107.3333333333px #8800ff, 212px -166.3333333333px #a600ff,
+      197px -6.3333333333px #ff006a, 179px -329.3333333333px #3300ff,
+      -167px -262.3333333333px #ff0062, 233px 65.6666666667px #ff008c,
+      81px 42.6666666667px #0051ff, -13px 54.6666666667px #00ff2b,
+      -60px -183.3333333333px #0900ff, 127px -259.3333333333px #ff00e6,
+      117px -122.3333333333px #00b7ff, 95px 20.6666666667px #ff8000,
+      115px 1.6666666667px #0004ff, -160px -328.3333333333px #00ff40,
+      69px -242.3333333333px #000dff, -208px -230.3333333333px #ff0400,
+      30px -15.3333333333px #e6ff00, 235px -15.3333333333px #fb00ff,
+      80px -232.3333333333px #d5ff00, 175px -173.3333333333px #00ff3c,
+      -187px -176.3333333333px #aaff00, 4px 26.6666666667px #ff6f00,
+      227px -106.3333333333px #ff0099, 119px 17.6666666667px #00ffd5,
+      -102px 4.6666666667px #ff0088, -16px -4.3333333333px #00fff7,
+      -201px -310.3333333333px #00ffdd, 64px -181.3333333333px #f700ff,
+      -234px -15.3333333333px #00fffb, -184px -263.3333333333px #aa00ff,
+      96px -303.3333333333px #0037ff, -139px 10.6666666667px #0026ff,
+      25px -205.3333333333px #00ff2b, -129px -322.3333333333px #40ff00,
+      -235px -187.3333333333px #26ff00, -136px -237.3333333333px #0091ff,
+      -82px -321.3333333333px #6a00ff, 7px -267.3333333333px #ff00c8,
+      -155px 30.6666666667px #0059ff, -85px -73.3333333333px #6a00ff,
+      60px -199.3333333333px #55ff00, -9px -289.3333333333px #00ffaa,
+      -208px -167.3333333333px #00ff80, -13px -299.3333333333px #ff0004,
+      179px -164.3333333333px #ff0044, -112px 12.6666666667px #0051ff,
+      -209px -125.3333333333px #ff00bb, 14px -101.3333333333px #00ff95,
+      -184px -292.3333333333px #ff0099, -26px -168.3333333333px #09ff00,
+      129px -67.3333333333px #0084ff, -17px -23.3333333333px #0059ff,
+      129px 34.6666666667px #7300ff, 35px -24.3333333333px #ffd900,
+      -12px -297.3333333333px #ff8400, 129px -156.3333333333px #0dff00,
+      157px -29.3333333333px #1a00ff, -221px 6.6666666667px #ff0062,
+      0px -311.3333333333px #ff006a, 155px 50.6666666667px #00ffaa,
+      -71px -318.3333333333px #0073ff;
+  }
+}
